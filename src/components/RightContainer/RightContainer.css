@@ -1,0 +1,69 @@
+.rightContainer{
+    /* border-radius: 60px; */
+   background-color: hsl(232, 77%, 64%);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+   margin: 10px;
+   padding-top: 5px;
+   height: 95%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   width: 200px;
+}
+
+.Duration{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: hsl(239, 40%, 20%);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.imageContainer > img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+.active{
+    font-size: 16px;
+    font-weight: 300;
+    color: white; 
+}
+
+.inactive{
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+}
+
+.reportFor{
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.name{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.NameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

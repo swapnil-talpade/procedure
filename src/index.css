@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(224, 46%, 9%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  margin-top: 60px;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  min-height: 100vh;
+}
+
+.RightContainer { grid-area: RightContainer; }
+.Col1 { grid-area: Col1; }
+.Col2 { grid-area: Col2; }
+.Col3 { grid-area: Col3; }
+.Col4 { grid-area: Col4; }
+.Col5 {grid-area: Col5;}
+.Col6 {grid-area: Col6} 
+
+.grid-container {
+  height: 500px;
+  display: grid;
+  grid-template-areas:
+    'RightContainer Col1 Col2 Col3'
+    'RightContainer Col4 Col5 Col6';
+    /* grid-gap: 10px; */
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
 }

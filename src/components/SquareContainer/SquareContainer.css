@@ -1,0 +1,38 @@
+.squareContainer{
+    height: 230px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+        background-color: hsl(237, 43%, 21%);
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.totalHours{
+    margin-top: 5px;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.lastWeekHours{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 200;
+}
